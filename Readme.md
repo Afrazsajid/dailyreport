@@ -20,6 +20,3 @@
 ## Next Steps
 - Plan to work on the badge creation logic triggered by interview performance. The badge will be awarded when an interview score exceeds 7.
 
-## Links to Related Files
-- [Badges Schema](badges-schema.md)
-- [API Endpoint for Badge Creation](badge-api-endpoint.md)
