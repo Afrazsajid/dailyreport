@@ -20,3 +20,42 @@
 ## Next Steps
 - Plan to work on the badge creation logic triggered by interview performance. The badge will be awarded when an interview score exceeds 7.
 
+-------
+-----
+---
+---
+
+# Day 2 Report
+
+## Summary
+- Rendered badge data on `badges/page.jsx` with a clean UI.
+- Added a loading screen for better UX during data fetch.
+- Implemented a sidebar for improved navigation.
+
+## Tasks Completed
+1. **Rendered Badge Data**:
+   - Fetched and displayed badge data (names, descriptions, dates) on `badges/page.jsx`.
+
+2. **Loading Screen**:
+   - Added a skeleton loader for smoother data fetching.
+
+3. **Sidebar**:
+   - Created a sidebar for easier app navigation.
+
+4. **Dynamic Routing**:
+   - Started migrating to `badges/[userid]/page.jsx` for user-specific badge pages.
+
+## Challenges
+- Ensuring responsive and consistent UI across devices.
+- Managing loading states without layout shifts.
+
+## Next Steps
+1. **Badge Assignment Logic**:
+   - **Golden Badge**: Score > 9 in an interview.
+   - **Silver Badge**: Score > 7 in an interview.
+
+2. **Dynamic User Badge Pages**:
+   - Complete migration to `badges/[userid]/page.jsx` for unique user URLs.
+
+3. **Shareable Badges**:
+   - Enable users to share badge pages on social media or via links.
