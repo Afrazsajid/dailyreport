@@ -62,52 +62,43 @@
 
 
 
+-------
+-----
+---
+---
 
-
- # Day 3 Report
+# Day 3 Report
 
 ## Summary
-- Designed a schema for overrating in the MOCI interview to trigger badges.
-- Made the feedback page dynamic to display overrating data.
-- Explored a scalable badge assignment method to handle future badge additions efficiently.
+- Designed a schema for badge overrating based on MOCI interview scores to trigger badge assignments.
+- Made the feedback page dynamic to display overrating.
+- Enabled users to share their badge pages to showcase achievements.
+- Started working on a more scalable approach to badge assignment.
 
 ## Tasks Completed
-1. **Overrating Schema Implementation**:
-   - Created a schema to capture overrating in the MOCI interview.
-   - Integrated logic to trigger badges based on overrating.
+1. **Badge Overrating Schema**:
+   - Created a schema for triggering badges based on interview performance (MOCI).
+   - Focused on score thresholds to assign badges like **Golden** (score > 9) and **Silver** (score > 7).
 
 2. **Dynamic Feedback Page**:
-   - Modified the feedback page to dynamically display overrating details.
+   - Updated the feedback page to dynamically display overrating information, reflecting the badge scores.
 
-3. **Badge Assignment Challenge**:
-   - Encountered an issue where manually assigning badges through separate functions per badge type would not scale well.
-   - Identified that adding more badge types would lead to increased function complexity and system load.
+3. **Badge Criteria Schema**:
+   - Designed a scalable badge criteria schema, factoring in interview counts and badge quantities.
+   - Created a logic flow diagram to guide the dynamic assignment of badges without bloating code for each new badge type.
 
-4. **Scalable Badge Assignment Plan**:
-   - Proposed creating a **badge criteria schema** to dynamically determine badge assignments.
-   - Designed three badge categories based on:
-     1. Number of interviews completed.
-     2. Number of badges earned.
-     3. Top rankers (e.g., if there are 3 top rankers, assign a "King" badge to them).
-   - Spent time creating a logic flow diagram to optimize badge assignment.
+4. **Shareable Badges Page**:
+   - Implemented the functionality to make badge pages shareable, allowing users to share their achievements via links or social media.
 
 ## Challenges
-- Finding an efficient method to check and assign a large number of badges without increasing system load.
-- Ensuring badge assignment remains flexible as more badge types are introduced.
+- Creating a scalable badge assignment system that can handle an increasing number of badges.
+- Determining an efficient way to reduce load as the number of badges grows, preventing excessive logic functions for each new badge.
 
 ## Next Steps
-1. **Implement Badge Criteria Schema**:
-   - Develop a schema to handle badge logic dynamically instead of hardcoding badge assignments.
+1. **Badge Assignment Logic**:
+   - Implement the badge assignment logic using the schema to efficiently assign badges based on interview performance and counts.
+   - Consider using a combined "King" badge for top rankers when there are multiple high-performing candidates.
 
-2. **Optimize Badge Assignment Logic**:
-   - Implement an efficient query mechanism to determine badge eligibility without excessive function calls.
-
-3. **Complete Badge Assignment Integration**:
-   - Finalize and test the logic to assign badges based on the new schema.
-
-4. **Refine Feedback Page**:
-   - Ensure overrating details are properly integrated and visually clear for users.
-
-5. **Prepare for Shareable Badges**:
-   - Start planning how users can share their earned badges through social media or direct links.
+2. **Optimizing Badge Assignment**:
+   - Refine the badge assignment system to reduce logic redundancy and optimize performance as more badge types are added.
 
