@@ -102,3 +102,39 @@
 2. **Optimizing Badge Assignment**:
    - Refine the badge assignment system to reduce logic redundancy and optimize performance as more badge types are added.
 
+
+
+-------
+-----
+---
+---
+
+
+
+## **Day 4 Report**  
+
+### **Tasks Completed**  
+1. **Badge Assignment Logic Implemented**  
+   - Successfully implemented the logic to assign **Golden** and **Silver** badges based on interview scores.  
+   - Ensured that badge assignment is dynamic, using the previously designed schema.  
+
+2. **Performance Optimization in Badge Assignment**  
+   - Refactored the logic to improve efficiency and prevent redundant function calls.  
+   - Structured the system to scale as more badge types are introduced.  
+
+### **Challenges**  
+- Ensuring the badge assignment remains scalable and efficient, especially as more badges are introduced.  
+- Preventing performance bottlenecks while checking badge eligibility dynamically.  
+
+### **Next Steps**  
+1. **Implement "Big Badge" System**  
+   - Assign users a special badge (e.g., **Elite Badge**) when they collect three **Golden** or **Silver** badges.  
+   - Ensure smooth integration into the current badge assignment logic.  
+
+2. **Further Optimization**  
+   - Fine-tune the badge assignment process to handle edge cases efficiently.  
+   - Continue refining the logic to prevent unnecessary database queries and function calls.  
+
+
+
+
