@@ -18,7 +18,7 @@
 - Minor challenges with schema structure adjustments for scalability.
   
 ## Next Steps
-- Plan to work on the badge creation logic triggered by interview performance. The badge will be awarded when an interview score exceeds 7.
+- Plan to Render the badges on screen with handling loading problems.
 
 -------
 -----
