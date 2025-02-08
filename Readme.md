@@ -138,3 +138,57 @@
 
 
 
+
+-------
+-----
+---
+---
+
+
+## **Day 6 Report**  
+
+### **Tasks Completed**  
+
+1. **Converted Vite Project to Next.js**  
+   - Successfully migrated the **home page** from Vite to Next.js.  
+   - Refactored components to follow Next.js structure, including **App Router** and **dynamic routing**.  
+   - Ensured smooth integration with **server-side rendering (SSR) and static site generation (SSG)**.  
+
+2. **Fixed Asset Import Issues**  
+   - Resolved the `Module not found: Can't resolve '../assets/images/logo.png'` error by properly handling image imports in Next.js.  
+   - Used `public/` directory for static assets like `icon.png`.  
+
+3. **Installed and Configured Tailwind CSS**  
+   - Successfully integrated **Tailwind CSS** into the Next.js project.  
+   - Configured `tailwind.config.js` to ensure proper **content scanning** for class usage.  
+
+4. **Metadata & Icon Setup**  
+   - Added proper metadata for `internee.pk`, including **title and description**.  
+   - Integrated a **favicon (`icon.png`)** for branding consistency.  
+
+5. **Fixed Missing Dependencies**  
+   - Installed **react-multi-carousel** and resolved `Module not found: Can't resolve 'react-multi-carousel'` error.  
+   - Ensured all necessary dependencies were properly added to `package.json`.  
+
+---
+
+### **Challenges**  
+- Handling **image imports** correctly, since Next.js uses `public/` for static assets.  
+- Adjusting Tailwind CSS configurations to work efficiently in a Next.js environment.  
+
+---
+
+### **Next Steps**  
+1. **Complete Full Page Migration**  
+   - Convert remaining pages and components from Vite to Next.js.  
+   - Ensure proper handling of **dynamic routing and API calls**.  
+
+2. **Further Optimization**  
+   - Optimize page load performance with **lazy loading** and **image optimization**.  
+   - Improve SEO with **structured metadata and Open Graph tags**.  
+
+3. **Enhance UI/UX**  
+   - Refine the **responsive design** using Tailwind.  
+   - Ensure accessibility best practices are followed.  
+
+
