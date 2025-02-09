@@ -191,4 +191,57 @@
    - Refine the **responsive design** using Tailwind.  
    - Ensure accessibility best practices are followed.  
 
+-------
+-----
+---
+---
+
+
+## **Day 7 Report**  
+
+### **Tasks Completed**  
+
+1. **Set Up Internship Schema in Database**  
+   - Configured and structured the **internship schema** in the database using Drizzle and PostgreSQL.  
+   - Ensured **relationships and indexing** for efficient querying.  
+
+2. **Rendered Internship Categories from Database**  
+   - Successfully fetched **categories dynamically** from the database.  
+   - Implemented efficient data fetching strategies with **server-side rendering (SSR)** in Next.js.  
+
+3. **Enhanced UI and Animations for Internship Page**  
+   - Improved the **premium look and feel** of the internship page.  
+   - Implemented **scroll-based animations** with Framer Motion to load cards one by one as the user scrolls.  
+   - Added **hover effects** and smooth transitions for an interactive user experience.  
+
+4. **Fixed Data Fetching Issues**  
+   - Debugged and resolved **async issues** in fetching subcategories.  
+   - Ensured proper **error handling** and data validation before rendering components.  
+
+5. **Optimized Grid Layout for Internship Categories**  
+   - Implemented a **responsive grid** using Tailwind CSS.  
+   - Ensured a seamless experience across different screen sizes, from **mobile to desktop**.  
+
+---
+
+### **Challenges**  
+- Handling **async data fetching** efficiently while keeping the UI responsive.  
+- Ensuring **Framer Motion animations** worked smoothly in Next.js **App Router**.  
+- Adjusting **grid responsiveness** for a balanced design.  
+
+---
+
+### **Next Steps**  
+1. **Complete Internship Detail Page**  
+   - Implement **dynamic routing** to show internship details.  
+   - Optimize content structure for better readability.  
+
+2. **Improve Performance**  
+   - Optimize **database queries** for faster data retrieval.  
+   - Implement **lazy loading** for assets and images.  
+
+3. **Enhance Search & Filter Functionality**  
+   - Add a **search bar** and category-based filters for better UX.  
+   - Ensure smooth filtering without excessive re-renders.  
+
 
